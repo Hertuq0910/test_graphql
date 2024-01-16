@@ -2,9 +2,9 @@
 Probando un proyecto de GraphQL con Go
 
 ## Instalación
-1. Clona el repositorio.
-2. Ejecuta el comando `go mod tidy` para actualizar e instalar los modulos.
-3. Ejecuta el comando `go build nombre_personal_proyecto.go` para crear el ejecutable del proyecto.
+1. Clona el repositorio `git clone https://github.com/Hertuq0910/test_graphql.git`.
+2. Ejecuta el comando `go mod init nombre_personal_proyecto` para crear el ejecutable del proyecto. (El nombre personal del proyecto es un nombre que le pones tú.)
+3. Ejecuta el comando `go mod tidy` para actualizar e instalar los modulos.
    
 ## Uso
 1. Ejecuta el comando `go run filter_version.go` para ejecutar el filtro que desees, recuerda cambiar la palabra versión en el comando por la versión que desees probar. (Ej: filter_v0.go)
